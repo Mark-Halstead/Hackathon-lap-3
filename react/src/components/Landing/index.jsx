@@ -8,7 +8,7 @@ const Landing = () => {
                 <p>
                     Where superheros meet superheros!
                 </p>
-                <a href='#tours' className='btn hero-btn'>
+                <a href='play' className='btn hero-btn'>
                     explore heros
                 </a>
             </div>
