@@ -1,22 +1,21 @@
 import React from 'react';
-import { Routes, Route} from "react-router-dom"
+import { Routes, Route } from "react-router-dom"
 import { useState } from 'react'
 import { LandingPage } from './Pages'
 import './App.css'
-import { Navbar } from './components'
+import { Navbar, Landing } from './components'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      
+
       <Routes>
-          <Route path="/" element={<Navbar />}>
-          <Route index element={<LandingPage />} />
+        {/* <Route path="/" element={<Navbar />}> */}
+          <Route path="/landing" element={<LandingPage />} />
           <Route path="about" />
           <Route path="play" />
-          </Route>
+        {/* </Route> */}
       </Routes>
     </>
   )
