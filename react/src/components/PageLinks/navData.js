@@ -1,6 +1,5 @@
 export const pageLinks = [
-    { id: 1, href: '#home', text: 'home' },
-    { id: 2, href: '#about', text: 'about' },
-    { id: 3, href: '#services', text: 'services' },
-    { id: 4, href: '#tours', text: 'tours' },
+    { id: 1, href: '#Home', text: 'home' },
+    { id: 2, href: '#About', text: 'about' },
+    { id: 3, href: '#Play Now!', text: 'Play Now!' },
   ];
