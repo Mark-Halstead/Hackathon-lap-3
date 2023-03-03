@@ -1,4 +1,4 @@
-import PageLinks from '../PageLinks'
+
 const Navbar = () => {
     return (
         <nav className='navbar'>

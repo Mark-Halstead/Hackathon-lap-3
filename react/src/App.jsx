@@ -1,9 +1,8 @@
 import React from 'react';
 import { Routes, Route } from "react-router-dom"
-import { useState } from 'react'
-import { LandingPage } from './Pages'
+import { LandingPage, HerosPage } from './Pages'
 import './App.css'
-import { Navbar } from './components'
+// import { Navbar } from './components'
 
 function App() {
 
@@ -14,7 +13,7 @@ function App() {
         {/* <Route path="/" element={<Navbar />}> */}
         <Route path="/" element={<LandingPage />} />
         <Route path="about" />
-        {/* <Route path="play" element ={<HerosPage/>}/> */}
+        <Route path="play" element ={<HerosPage/>}/>
         {/* </Route> */}
       </Routes>
     </>
